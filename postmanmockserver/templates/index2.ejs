@@ -1,0 +1,19 @@
+<% for (data in jdata["item"]){%>
+    <div class="mainb">
+        <h1><%= jdata["item"][data]["mainb"] %></h1>
+    </div>
+    <div class="b1">
+        <p> <%=jdata["item"][data]["b1"] %> </p>
+    </div>
+    <div class="auth">
+        <p><%=jdata["item"][data]["auth"] %></p>
+    </div>
+    <div class="new">
+    <div class="pub">
+        <p>May<%=jdata["item"][data]["pub"] %>min read &#9733;</p>
+    </div>
+    <div class="resp">
+        <i style="font-size:24px" class="fa">&#xf097;</i> 
+    </div>
+    </div>
+    <% } %>
