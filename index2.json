@@ -1,0 +1,29 @@
+{
+    "item":[{
+        "mainb":"Nothing Happens Untill the Sale is Made",
+        "b1":"How to avoid common mistakes while selling your product",
+        "auth":"Dan Shipper in Better Programming",
+        "pub":"16 . 10"
+    },{
+        "mainb":"Tackling the Emotions Behind My Procrastination Problem",
+        "b1":"My habit of delaying to the last minutemay have deeper roots than i'd realized",
+        "auth":"Sara Zarr in Human Parts",
+        "pub":"16 . 5"
+    },{
+        "mainb":"Femtech Could Be the Solution to Medicine`s Male Bias",
+        "b1":"Female Engineers are building a new health care industry, but its future depends on mostly male....",
+        "auth":"MORGAN MEAKER in OneZero",
+        "pub":"16 . 6"
+    },{
+        "mainb":"Everybody`s Rich but You",
+        "b1":"IPO FOMO is real",
+        "auth":"Sunil Rajaraman in The Bold italic",
+        "pub":"9 . 6"
+    },{
+        "mainb":"Warning Signs That a Bubble is About to Burst",
+        "b1":"You don`t need a Noble to see the similarities between 1999 and 2019",
+        "auth":"Scott Galloway in OneZero",
+        "pub":"9 . 6"
+    }
+]
+}

@@ -1,0 +1,123 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>MEDIUM</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" href="style2.css" type="text/css" />
+            <script type="text/javascript"></script>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+        <body>
+            <div class=bg-fluid> 
+            <div class="container">
+            <div class="tags">
+                <a href="#">HOME</a>
+                &nbsp; &nbsp; 
+                <a href="#">ONEZERO</a>
+                &nbsp; &nbsp; 
+                <a href="#">ELEMENTAL</a> 
+                &nbsp; &nbsp;
+                <a href="#">HEATED</a>
+            </div> <br/>
+                <div class="content">
+                    <!-- <div class="mainb">
+                        <h1>Nothing Happens Untill the Sale is Made</h1>
+                    </div>
+                    <div class="b1">
+                        <p>How to avoid common mistakes while selling <br/><br/>
+                            your product
+                        </p>
+                    </div>
+                    <div class="auth">
+                        <p>Dan Shipper in Better Programming</p>
+                    </div>
+                    <div class="new">
+                    <div class="pub">
+                        <p>May 16 . 10 min read &#9733;</p>
+                    </div>
+                    <div class="resp">
+                        <i style="font-size:24px" class="fa">&#xf097;</i> 
+                    </div>
+                    </div> -->
+                </div> 
+                <!-- <div class="para">
+                    <div class="mainb">
+                        <h1>Tackling the Emotions Behind My Procrastination Problem</h1>
+                    </div>
+                    <div class="b1">
+                        <p>
+                            My habit of delaying to the last minutemay have deeper roots <br/><br/>
+                            than i'd realized
+                        </p>
+                    </div>
+                    <div class="auth">
+                        <p>Sara Zarr in Human Parts</p>
+                    </div>
+                    <div class="pub">
+                        <p>May 16 . 5 min read &#9733;</p>
+                    </div>
+                </div> <br/>
+                <div class="para">
+                    <div class="mainb">
+                        <h1>Femtech Could Be the Solution to <br/>
+                             Medicine`s Male Bias
+                        </h1>
+                    </div>
+                    <div class="b1">
+                        <p>Female Engineers are building a new health care <br/><br/>
+                            industry, but its future depends on mostly male....
+                        </p>
+                    </div>
+                    <div class="auth">
+                        <p>MORGAN MEAKER in OneZero</p>
+                    </div>
+                    <div class="pub">
+                        <p>May 16 . 6 min read &#9733;</p>
+                    </div>
+                </div> <br/>
+                <div class="para">
+                    <div class="mainb">
+                        <h1>Everybody`s Rich but You</h1>
+                    </div>
+                    <div class="b1">
+                        <p>IPO FOMO is real</p>
+                    </div>
+                    <div class="auth">
+                        <p>Sunil Rajaraman in The Bold italic</p>
+                    </div>
+                    <div class="pub">
+                        <p>may 9 . 6  min read &#9733;</p>
+                    </div>
+                </div>
+                <div class="para">
+                    <div class="mainb">
+                        <h1>Warning Signs That a Bubble is About to Burst</h1>
+                    </div>
+                    <div class="b1">
+                        <p>You don`t need a Noble to see the similarities <br/><br/>
+                             between 1999 and 2019
+                        </p>
+                    </div>
+                    <div class="auth">
+                        <p>Scott Galloway in OneZero</p>
+                    </div>
+                    <div class="pub">
+                        <p>may 9 . 6  min read &#9733;</p>
+                    </div>
+                </div> -->
+            </div>
+            </div>
+            <script src="jquery.min.js"></script>
+	        <script src="ejs.min.js"></script>
+            <script src="ejs-render-remote.js"></script>
+            <script>
+                //render the template
+                    $.getJSON("index2.json",function(data){
+                        $('.content').html(ejs.rr('templates/index2.ejs',{jdata:data}))
+                    });
+            </script>
+        </body>
+</html>
