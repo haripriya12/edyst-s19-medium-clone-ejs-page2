@@ -2,6 +2,7 @@
     "item":{
         "b1":"Case Study: 'How We Redesigned Our App's UI in Only Three Months'",
         "b2":"Collaboration and flexbility are the names of the game",
+        "image":"images/david.jpeg",
         "pname":"Dave Feldman",
         "pdate":"May 20 . 9 ",
         "datafl":"w",
@@ -12,4 +13,4 @@
         "data4":"We knew we wanted something modern, but we didn’t just want to look like everything else; we were hoping to be at least a little distinct.",
         "data5":"Heap is an app, not a website; a desktop thing, not a mobile thing."
     }
-}
+} 
