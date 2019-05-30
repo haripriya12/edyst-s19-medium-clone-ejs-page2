@@ -1,30 +1,30 @@
 <div class="b1">
-    <h1><%= jdata["item"]["b1"] %></h1>
+    <h1><%= jdata["data"]["title"] %></h1>
 </div>
 <div class="b2">
-        <%= jdata["item"]["b2"] %>
+        <%= jdata["data"]["titledes"] %>
     </div> <br/>
     <div class="profile">
         <div class="img">
             <img src="images/david.jpeg" style="border-radius: 50% 50%;" alt="avatar">
         </div>
         <div class="pname">
-            <p><%= jdata["item"]["pname"] %></p>
-            <p> <%= jdata["item"]["pdate"] %>min read</p>
+            <p><%= jdata["data"]["auth"] %></p>
+            <p> <%= jdata["data"]["readtimes"] %>min read</p>
         </div>
         <div class="follow">
             <a href="#" class="rect1">Follow</a>
         </div> 
-</div> <br/><br/>
+</div> <br/><br/>  
 <div class="data">
-        <p><span class="third-first-letter"><%= jdata["item"]["datafl"] %></span><%= jdata["item"]["data"] %> </p> <br/>
+        <p><span class="third-first-letter"><%= jdata["data"]["datafl"] %></span><%= jdata["data"]["part1"] %> </p> <br/>
         <p>
-            <%= jdata["item"]["data1"] %> 
+            <%= jdata["data"]["part2"] %> 
         </p>
-        <p>&#8226; <%= jdata["item"]["data2"] %> 
+        <p>&#8226; <%= jdata["data"]["li1"] %> 
         </p>
-        <p>&#8226;  <%= jdata["item"]["data3"] %> </p>
-        <p>&#8226; <%= jdata["item"]["data4"] %>
+        <p>&#8226;  <%= jdata["data"]["li2"] %> </p>
+        <p>&#8226; <%= jdata["data"]["li3"] %>
         </p>
-        <p>&#8226;  <%= jdata["item"]["data5"] %> </p>
+        <p>&#8226;  <%= jdata["data"]["li4"] %> </p>
 </div> 
